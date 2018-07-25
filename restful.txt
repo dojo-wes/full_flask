@@ -1,0 +1,18 @@
+RESTful routing is a convention for setting up routes. Specifically as it relates to naming.
+
+index -- /users -- GET request -- show all users, render index.html
+create -- /users -- POST request -- create a new user
+update -- /users/:id -- PUT/PATCH request -- update specific user
+destroy -- /users/:id -- DELETE request -- delete specific user
+show -- /users/:id -- GET request -- show one specific user
+new -- /users/new -- GET request -- render form for new user
+edit -- /users/:id/edit -- GET request -- render edit form for existing user
+
+/users - index
+/users/create - create
+/users/:id/update - update
+/users/:id/delete - destroy
+/users/:id - show
+/users/new - new
+/users/:id/edit - edit
+/login
